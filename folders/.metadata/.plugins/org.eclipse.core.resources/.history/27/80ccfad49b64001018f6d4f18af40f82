@@ -1,0 +1,17 @@
+package controlContruct;
+
+public class ternaryOperator {
+	public static void main(String[] args) {
+		int a = 10;
+		int b= 15;
+		int sum= a+b;
+        String op = "plus";
+        
+		switch(op) {
+		case "plus":
+		int  x=(sum>0)? sum :0; 
+		System.out.println(x);
+		}
+	}
+
+}

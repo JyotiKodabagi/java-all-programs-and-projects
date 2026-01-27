@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;rough.STUDENT&apos; to &apos;employee&apos;&#x0D;&#x0A;- Original project: &apos;rough&apos;&#x0D;&#x0A;- Original element: &apos;rough.STUDENT&apos;&#x0D;&#x0A;- Renamed element: &apos;rough.employee&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;STUDENT&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;rough{STUDENT.java[STUDENT" matchStrategy="1" name="employee" qualified="false" references="true" similarDeclarations="false" stamp="1767625650326" textual="false" version="1.0"/>
+</session>

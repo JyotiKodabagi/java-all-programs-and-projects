@@ -1,0 +1,10 @@
+package encapsulastion;
+
+public class stdentMain {
+	public static void main(String[] args) {
+		Student s = new Student();
+		s.setId(50);
+		s.getId();
+	}
+
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\java class\ninethHibernateProject"/>
+			<item value="C:\java class\seventhhibernateProject"/>
+			<item value="C:\java class\fifthHobernateProject"/>
+			<item value="C:\java class\fourthHibernateProject"/>
+			<item value="C:\java class\1hibernate"/>
+			<item value="C:\java class\EmployeeManagementSystemUsingHibernate"/>
+			<item value="C:\java class\thirdHibernateProgram"/>
+			<item value="C:\java class\firstHibernate"/>
+			<item value="C:\java class\FirstMaven"/>
+			<item value="C:\java class\JDBC"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.HQLQuerey.tenthHibernareProgramHQL"/>
+			<item value="com.manyToMany.ninethHibernateProject"/>
+			<item value="com.manyToOne.seventHibernateProject"/>
+			<item value="com.oneTomany.seventhhibernateProject"/>
+			<item value="com.oneToOne.SixthHibernateProjectBook"/>
+			<item value="com.oneToOne.fifthHobernateProject"/>
+		</list>
+		<list key="groupId">
+			<item value="com.HQLQuerey"/>
+			<item value="com.manyToMany"/>
+			<item value="com.manyToOne"/>
+			<item value="com.oneTomany"/>
+			<item value="com.oneToOne"/>
+		</list>
+		<list key="artifactId">
+			<item value="tenthHibernareProgramHQL"/>
+			<item value="ninethHibernateProject"/>
+			<item value="seventHibernateProject"/>
+			<item value="seventhhibernateProject"/>
+			<item value="SixthHibernateProjectBook"/>
+			<item value="fifthHobernateProject"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="513"/>
+		<item key="height" value="925"/>
+		<item key="x" value="704"/>
+		<item key="y" value="0"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\HP\Desktop\SpringProjects\SeventhSpringProject"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\SixthSpringProject"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\fifthSpringProject\fifthSpringProject"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\FourthSpring\FourthSpring"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\ThirdSpring\ThirdSpring"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\SecondSpring"/>
+			<item value="C:\Users\HP\Desktop\SpringProjects\FirstSpringProgram"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

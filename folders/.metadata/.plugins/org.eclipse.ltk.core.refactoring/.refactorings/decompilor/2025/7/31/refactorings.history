@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;decompilor.decompilor.java&apos; to &apos;BytecodeToSource.java&apos;&#x0D;&#x0A;- Original project: &apos;decompilor&apos;&#x0D;&#x0A;- Original element: &apos;decompilor.decompilor.java&apos;&#x0D;&#x0A;- Renamed element: &apos;decompilor.BytecodeToSource.java&apos;" description="Rename compilation unit &apos;decompilor.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;decompilor{decompilor.java" name="BytecodeToSource.java" references="false" stamp="1753711023988" version="1.0"/>
+</session>

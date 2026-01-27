@@ -1,0 +1,47 @@
+package encapsulastion;
+
+public class Student {
+private int id;
+private String name;
+private int marks;
+
+public void setId(int a) {
+if (id>0) {
+	id = a;
+}
+else {
+    id=0;
+	System.out.println("invailid input");
+}}
+
+public int getId() {
+	return id;
+
+}
+
+
+
+public void setmark(int c) {
+if (marks>0) {
+	marks = c;
+}
+else {
+	marks =0;
+	System.out.println("invailid input");
+}}
+
+public int getMarks() {
+	return marks;
+
+}
+public void setName(String b) {
+ name=b;
+}
+
+public String getName() {
+	return name;
+
+}
+
+
+}

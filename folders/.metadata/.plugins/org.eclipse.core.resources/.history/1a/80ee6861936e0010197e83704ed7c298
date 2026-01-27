@@ -1,0 +1,6 @@
+package mathodHiding;
+class school {
+	 void holiday() {
+		System.out.println("the holiday are announced by school.");
+	}
+}

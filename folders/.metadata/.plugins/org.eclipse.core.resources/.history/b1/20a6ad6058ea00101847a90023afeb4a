@@ -1,0 +1,16 @@
+package com.fifthSpring.fifthSpringProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+
+@SpringBootApplication
+public class FifthSpringProjectApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext ac=SpringApplication.run(FifthSpringProjectApplication.class, args);
+		employee emp = (employee)ac.getBean("emp");
+		System.out.println(emp);
+	}
+
+}

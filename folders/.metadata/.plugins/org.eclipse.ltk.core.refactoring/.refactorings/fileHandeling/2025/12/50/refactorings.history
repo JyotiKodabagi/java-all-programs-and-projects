@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;fileClass.package-info.java&apos; to &apos;fileclassExamle.java&apos;&#x0D;&#x0A;- Original project: &apos;fileHandeling&apos;&#x0D;&#x0A;- Original element: &apos;fileClass.package-info.java&apos;&#x0D;&#x0A;- Renamed element: &apos;fileClass.fileclassExamle.java&apos;" description="Rename compilation unit &apos;package-info.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;fileClass{package-info.java" name="fileclassExamle.java" references="false" stamp="1765634104595" version="1.0"/>
+</session>

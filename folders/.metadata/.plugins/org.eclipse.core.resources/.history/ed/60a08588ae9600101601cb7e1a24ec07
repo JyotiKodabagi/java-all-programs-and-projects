@@ -1,0 +1,41 @@
+package ArrayPracticeQuestion;
+
+import java.util.Scanner;
+
+public class maximumproductOfSubarray {
+	public static void main(String[] args) {
+		
+	
+	  Scanner sc = new Scanner(System.in);
+
+      int n = sc.nextInt();
+      int[] nums = new int[n];
+
+      for (int i = 0; i < n; i++) {
+          nums[i] = sc.nextInt();
+      }
+
+      System.out.println(maxProduct(nums));
+  }
+
+  public static int maxProduct(int[] nums) {
+      // Your logic here
+	  int maxProduct = Integer.MAX_VALUE;
+	  for(int i=0;i<=nums.length-1;i++) {
+		  
+		  for(int j =i;j<=nums.length-1;j++) {
+			  
+			  int subProduct = 1;
+			   subProduct = subProduct*nums[j];
+			   if(subProduct>maxProduct) {
+				 subProduct = maxProduct;
+			   }
+			   
+		  }
+		  return maxProduct;
+	  }
+      return -1;
+  }
+} 
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;customeAnnotaions.alidate.java&apos; to &apos;validate.java&apos;&#x0D;&#x0A;- Original project: &apos;Annotations&apos;&#x0D;&#x0A;- Original element: &apos;customeAnnotaions.alidate.java&apos;&#x0D;&#x0A;- Renamed element: &apos;customeAnnotaions.validate.java&apos;" description="Rename compilation unit &apos;alidate.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;customeAnnotaions{alidate.java" name="validate.java" references="false" stamp="1765720160134" version="1.0"/>
+</session>

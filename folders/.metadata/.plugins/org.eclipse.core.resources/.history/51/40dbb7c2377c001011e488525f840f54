@@ -1,0 +1,10 @@
+package rough;
+
+public class rought {
+	static boolean block;
+	static{
+
+		System.out.println("hello");
+	}
+
+}

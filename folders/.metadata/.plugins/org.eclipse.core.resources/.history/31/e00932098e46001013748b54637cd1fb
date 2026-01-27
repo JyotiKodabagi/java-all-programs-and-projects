@@ -1,0 +1,12 @@
+package demo;
+
+public class demo{
+ public static void main(String[]args) {
+ System.out.print("Welcome to kodnest");
+ System.out.println("1. burgger");
+ System.out.println("2. pizza");
+ System.out.println("3. utkarsh");
+ 
+ 
+ }
+}

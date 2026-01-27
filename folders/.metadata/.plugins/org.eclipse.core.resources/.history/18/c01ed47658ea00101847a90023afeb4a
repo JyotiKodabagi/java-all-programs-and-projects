@@ -1,0 +1,17 @@
+package com.fifthSpring.fifthSpringProject;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+@SpringBootApplication
+public class FifthSpringProjectApplication {
+
+	public static void main(String[] args) {
+		ApplicationContext ac= new ClassPathXmlApplicationContext("spring-config.xml");
+		employee emp = (employee)ac.getBean("emp");
+		System.out.println(emp);
+	}
+
+}

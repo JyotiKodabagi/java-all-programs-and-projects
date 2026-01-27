@@ -1,0 +1,16 @@
+package practicePeoblem;
+
+import java.util.Scanner;
+
+public class rotateWorldasperuser {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String string = scanner.nextLine();
+		int a = scanner.nextInt();
+		String string2 = scanner.next();
+		string.trim();
+		System.out.println(string);
+		
+	}
+
+}

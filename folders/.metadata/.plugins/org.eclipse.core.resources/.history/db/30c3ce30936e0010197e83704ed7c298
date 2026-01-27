@@ -1,0 +1,9 @@
+package mathodHiding;
+
+public class schoolapp {
+	public static void main(String[] args) {
+		branchSchool b = new branchSchool();
+		b.holiday();
+	}
+
+}

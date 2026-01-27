@@ -1,0 +1,21 @@
+
+<hibernate-configuration>
+<session-factory>
+<!-- Database setting configuratation-->
+<property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+<property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/hibernatedb</property>
+<property name = "hibernate.connection.username">root</property>
+<property name = "hibernate.connection.password">Raghav@123</property>
+<!--Hibernate settings -->
+<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+<property name = "hibernate.show_sql">false</property>
+<property name = "hibernate.format_sql">false</property>
+<mapping class="com.hibernate.SecondtProgram.secondProgram.student"/>
+
+
+
+</session-factory>
+
+
+
+</hibernate-configuration>

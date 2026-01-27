@@ -1,0 +1,36 @@
+
+import java.util.LinkedList;
+import java.util.Scanner;
+public class Playlist1 {
+
+	    public static void main(String[] args) {
+	        Scanner sc = new Scanner(System.in);
+	        LinkedList<String> playlist = new LinkedList<String>();
+	        // Read the number of songs
+	        int n = sc.nextInt();
+	        sc.nextLine();
+	        for(int i=0;i<=n;i++) {
+	        	playlist.add(sc.nextLine());
+	        }
+	        	
+	        
+	        // Reverse the linked list
+	        reverseLinkedList(playlist);
+	        
+	        // Print the reversed linked list
+	        for (String song : playlist) {
+	            System.out.print(song + " ");
+	        }
+	        
+	        sc.close();
+	    }
+	    public static void reverseLinkedList(LinkedList<String> playlist) {
+	    	for(Object x : playlist) {
+	    		System.out.println(playlist.getLast());
+	    	}
+	    
+	    // Function to reverse the linked list
+	}
+
+	
+
