@@ -1,9 +1,12 @@
 name: Daily Folder Auto Upload
+
 on:
   schedule:
-    - cron: "30 8 * * *"   # 2:00 PM IST
+    - cron: "30 8 * * *"   # 2:00 PM IST (UTC)
   workflow_dispatch:
 
+permissions:
+  contents: write   # 🔥 REQUIRED to push commits
 
 jobs:
   upload:
@@ -12,13 +15,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Upload one folder per day
         run: |
           echo "Checking folders..."
 
+          # ensure folders directory exists
+          if [ ! -d "folders" ]; then
+            echo "❌ folders directory not found"
+            exit 0
+          fi
+
           # get first folder alphabetically
-          FOLDER=$(ls folders | head -n 1)
+          FOLDER=$(ls folders | sort | head -n 1)
 
           if [ -z "$FOLDER" ]; then
             echo "✅ No folders left to upload"
@@ -30,8 +41,8 @@ jobs:
           mkdir -p uploaded
           mv "folders/$FOLDER" "uploaded/$FOLDER"
 
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
+          git config user.name "JyotiKodabagi"
+          git config user.email "jyotikodabagi2002@gmail.com"
 
           git add .
           git commit -m "Daily upload: $FOLDER"
